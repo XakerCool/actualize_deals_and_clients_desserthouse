@@ -26,7 +26,7 @@ class Handler {
             const result = await bx.deals.list({ filter: {">DATE_CREATE": lastDealDate} });
             return result.result;
         } catch (error) {
-            logger.logError("HANDLER getDealsList", error);
+            logger.logError("HANDLER getDealsListAfterLastDealDate", error);
         }
     }
 
@@ -42,7 +42,7 @@ class Handler {
                 return null
             }
         } catch (error) {
-            logger.logError("HANDLER getDealsList", error);
+            logger.logError("HANDLER getAllClientsFromBx", error);
         }
     }
 
@@ -51,7 +51,7 @@ class Handler {
             const deals = await this.getDealsListAfterLastDealDate(link);
             return !!(await updateDealsData(deals, this.currentOverallData, link));
         } catch (error) {
-            logger.logError("HANDLER getDealsList", error);
+            logger.logError("HANDLER updateDealsHandler", error);
         }
     }
 
@@ -64,7 +64,7 @@ class Handler {
                 return false;
             }
         } catch (error) {
-            logger.logError("HANDLER getDealsList", error);
+            logger.logError("HANDLER updateClientsHandler", error);
         }
     }
 
