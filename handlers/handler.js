@@ -1,19 +1,21 @@
-const {Bitrix} = require("@2bad/bitrix");
-
-const {readDataInfo, updateDealsData, getLastDealDate} = require('../controllers/helper.js');
+const { Bitrix } = require("@2bad/bitrix");
+const { readDataInfo, updateDealsData, getLastDealDate } = require('../controllers/helper.js');
 const logger = require("../logger/logger");
-const {updateClientsData} = require("../controllers/helper");
-const {getDealsFromFile} = require("../controllers/deals")
-const {getClientsFromFile} = require("../controllers/clients")
+const { updateClientsData } = require("../controllers/helper");
+const { getDealsFromFile } = require("../controllers/deals");
+const { getClientsFromFile } = require("../controllers/clients");
 
 class Handler {
-    currentOverallData = {}
+    constructor() {
+        this.currentOverallData = {};
+    }
+
     async readInfo() {
         try {
-            this.currentOverallData = await readDataInfo()
+            this.currentOverallData = await readDataInfo();
             return this.currentOverallData;
         } catch (error) {
-            logger.logError("HANDLER readInfo", error)
+            logger.logError("HANDLER readInfo", error);
             return null;
         }
     }
@@ -23,10 +25,11 @@ class Handler {
             const currentInfo = await this.readInfo();
             const lastDealDate = currentInfo.LAST_DEAL_DATE;
             const bx = Bitrix(link);
-            const result = await bx.deals.list({ filter: {">DATE_CREATE": lastDealDate} });
+            const result = await bx.deals.list({ filter: { ">DATE_CREATE": lastDealDate } });
             return result.result;
         } catch (error) {
             logger.logError("HANDLER getDealsListAfterLastDealDate", error);
+            return null;
         }
     }
 
@@ -39,94 +42,84 @@ class Handler {
             if (result.result.length > currentClientsCount) {
                 return result.result;
             } else {
-                return null
+                return null;
             }
         } catch (error) {
             logger.logError("HANDLER getAllClientsFromBx", error);
+            return null;
         }
     }
 
-    async updateDealsHandler(req, res, link) {
+    async updateDealsHandler(link) {
         try {
             const deals = await this.getDealsListAfterLastDealDate(link);
-            return !!(await updateDealsData(deals, this.currentOverallData, link));
+            const result = await updateDealsData(deals, this.currentOverallData, link);
+            return result;
         } catch (error) {
             logger.logError("HANDLER updateDealsHandler", error);
+            return false;
         }
     }
 
-    async updateClientsHandler(req, res, link) {
+    async updateClientsHandler(link) {
         try {
             const clients = await this.getAllClientsFromBx(link);
             if (clients) {
-                return !!(await updateClientsData(clients, this.currentOverallData));
+                const response = await updateClientsData(clients, this.currentOverallData);
+                return response;
             } else {
                 return false;
             }
         } catch (error) {
             logger.logError("HANDLER updateClientsHandler", error);
+            return false;
         }
     }
 
     async getDeals() {
         try {
             const data = await getDealsFromFile();
-            if (data) {
-                return data
-            } else {
-                return null;
-            }
+            return data || null;
         } catch (error) {
             logger.logError("HANDLER getDeals", error);
+            return null;
         }
     }
 
     async getClients() {
         try {
             const data = await getClientsFromFile();
-            if (data) {
-                return data
-            } else {
-                return null;
-            }
+            return data || null;
         } catch (error) {
-            logger.logError("HANDLER getClnts", error);
+            logger.logError("HANDLER getClients", error);
+            return null;
         }
     }
 
-    async updateAndGetAllData(req, res, link) {
+    async updateAndGetAllData(link) {
         try {
-            await this.updateDealsHandler(req, res, link).then(() => {}).catch(error => logger.logError("HANDLER updateAndGetAllData: error updating deals data", error))
-            await this.updateClientsHandler(req, res, link).then(() => {}).catch(error => logger.logError("HANDLER updateAndGetAllData: error updating clients data", error))
+            await this.updateDealsHandler(link);
+            await this.updateClientsHandler(link);
 
             const deals = await this.getDeals();
             const clients = await this.getClients();
             const overallData = await this.readInfo();
 
-            if (!deals) {
-                logger.logError("HANDLER updateAndGetAllData", "Deals is null");
-                res.status(500).json("Ошибка при получении данных");
-            }
-            if(!clients) {
-                logger.logError("HANDLER updateAndGetAllData", "Clients is null");
-                res.status(500).json("Ошибка при получении данных");
-            }
-            if(!overallData) {
-                logger.logError("HANDLER updateAndGetAllData", "Overall data is null");
-                res.status(500).json("Ошибка при получении данных");
+            if (!deals || !clients || !overallData) {
+                logger.logError("HANDLER updateAndGetAllData", "data is missing");
+                return null;
             }
 
-            res.status(200).json({
-                "deals": deals,
-                "clients": clients,
-                "overall_data": overallData
-            })
+            return {
+                deals,
+                clients,
+                overall_data: overallData
+            };
         } catch (error) {
             logger.logError("HANDLER updateAndGetAllData", error);
+            return null;
         }
     }
 }
 
-
-
-module.exports = Handler
+module.exports = Handler;

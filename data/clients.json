@@ -2401,7 +2401,7 @@
     },
     {
         "ID": "942",
-        "NAME": "ТОО \"Control\" Lanzhou",
+        "NAME": "ТОО \"Control\" Lanzhou Темирязева",
         "SECOND_NAME": null,
         "LAST_NAME": ""
     },
@@ -2653,7 +2653,7 @@
     },
     {
         "ID": "1112",
-        "NAME": " TOO \"Control\" Lanzhou ",
+        "NAME": " TOO \"Control\" Lanzhou Таугуль",
         "SECOND_NAME": null,
         "LAST_NAME": ""
     },
@@ -6355,9 +6355,9 @@
     },
     {
         "ID": "2476",
-        "NAME": "ИП",
+        "NAME": "ИП \"ФАТИМА Н\", Coffee Cup",
         "SECOND_NAME": "",
-        "LAST_NAME": "ФАТИМА Н, Coffee Cup, ЖК Nomad, улица Толе би, 189"
+        "LAST_NAME": ""
     },
     {
         "ID": "2478",
@@ -13492,5 +13492,23 @@
         "NAME": null,
         "SECOND_NAME": null,
         "LAST_NAME": "Контакт #5062"
+    },
+    {
+        "ID": "5064",
+        "NAME": "Soul",
+        "SECOND_NAME": "",
+        "LAST_NAME": "Cup"
+    },
+    {
+        "ID": "5066",
+        "NAME": null,
+        "SECOND_NAME": null,
+        "LAST_NAME": "Контакт #5066"
+    },
+    {
+        "ID": "5068",
+        "NAME": "Гульнара",
+        "SECOND_NAME": "",
+        "LAST_NAME": "чк"
     }
 ]
