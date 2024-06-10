@@ -5,6 +5,11 @@ const router = express.Router();
 
 const handler = new Handler()
 
+router.get("/", (req, res) => {
+    console.log("hello world")
+    res.status(200).json("hello world");
+})
+
 router.get('/deals/', (req, res) => {
     const link = req.app.locals.link;
     handler.updateDealsHandler(req, res, link).then(result => res.json(result));
