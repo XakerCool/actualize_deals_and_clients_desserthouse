@@ -15,7 +15,7 @@ app.locals.link = process.env.DESSERTHOUSE_LINK;
 
 app.use(cors());
 
-app.use('/', router);
+app.use('/activity/', router);
 
 app.listen(PORT, () => {
     console.log(`Сервер запущен на порту ${PORT}`);
