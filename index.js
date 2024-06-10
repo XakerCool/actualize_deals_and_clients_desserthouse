@@ -11,7 +11,7 @@ dotenv.config({ path: envPath });
 const app = express();
 const PORT = 4400;
 
-app.locals.link = process.env.DESSERTHOUSE_LINK;
+app.locals.link = process.env.AKRAHOLDING_LINK;
 
 app.use(cors());
 

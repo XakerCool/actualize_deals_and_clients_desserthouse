@@ -8,6 +8,7 @@ const logger = require("../logger/logger");
 const dealsFilePath = "../data/deals.json";
 const clientsFilePath = "../data/clients.json";
 const dataClientSummaryFilePath = "../data/deals_clients_summary.json";
+const companiesFilePath = '../data/companies.json'
 async function readDataInfo() {
     const dataFilePath = path.join(__dirname, dataClientSummaryFilePath);
     try {
@@ -17,6 +18,7 @@ async function readDataInfo() {
         return {
             DEALS_COUNT: data.DEALS_COUNT || 0,
             CLIENTS_COUNT: data.CLIENTS_COUNT || 0,
+            COMPANIES_COUNT: data.COMPANIES_COUNT || 0,
             LAST_DEAL_DATE: data.LAST_DEAL_DATE || 0,
         };
     } catch (error) {
@@ -24,10 +26,34 @@ async function readDataInfo() {
         return {
             DEALS_COUNT: 0,
             CLIENTS_COUNT: 0,
+            COMPANIES_COUNT: 0,
             LAST_DEAL_DATE: 0,
         };
     }
 }
+
+async function updateCompaniesData(newData, currentOverallData) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const dataFilePath = path.join(__dirname, companiesFilePath);
+            await fs.writeFile(dataFilePath, JSON.stringify(newData, null, 4), 'utf-8');
+
+            const updatedDealsClientsSummaryData = {
+                DEALS_COUNT: currentOverallData.DEALS_COUNT,
+                CLIENTS_COUNT: currentOverallData.COMPANIES_COUNT,
+                COMPANIES_COUNT: newData.length,
+                LAST_DEAL_DATE: currentOverallData.LAST_DEAL_DATE
+            }
+
+            await updateDealsClientsSummary(updatedDealsClientsSummaryData)
+
+        } catch (error) {
+            logger.logError("Helper, updateDealsData", error);
+            resolve(false);
+        }
+    })
+}
+// "Компания: ID": 434,
 
 async function updateClientsData(newData, currentOverallData) {
     return new Promise(async (resolve, reject) => {
@@ -41,6 +67,7 @@ async function updateClientsData(newData, currentOverallData) {
             const updatedDealsClientsSummaryData = {
                 DEALS_COUNT: currentOverallData.DEALS_COUNT,
                 CLIENTS_COUNT: newData.length,
+                COMPANIES_COUNT: currentOverallData.COMPANIES_COUNT,
                 LAST_DEAL_DATE: currentOverallData.LAST_DEAL_DATE
             }
 
@@ -75,6 +102,7 @@ async function updateDealsData(newData, currentOverallData, link) {
                         "Дата создания": deal["DATE_CREATE"] || null,
                         "Дата оплаты": deal[fieldName] || null,
                         "Клиент: ID": deal["CONTACT_ID"] || null,
+                        "Комания: ID": deal["COMPANY_ID"] || null,
                         "Сумма": deal["OPPORTUNITY"] || null
                     });
                 }
@@ -95,6 +123,7 @@ async function updateDealsData(newData, currentOverallData, link) {
             const updatedDealsClientsSummaryData = {
                 DEALS_COUNT: updatedData.length,
                 CLIENTS_COUNT: currentOverallData.CLIENTS_COUNT,
+                COMPANIES_COUNT: currentOverallData.COMPANIES_COUNT,
                 LAST_DEAL_DATE: maxDate.toISOString()
             };
 
@@ -108,7 +137,6 @@ async function updateDealsData(newData, currentOverallData, link) {
 
 }
 
-
 async function getDealsUserFields(link) {
     try {
         const bx = Bitrix(link);
@@ -120,7 +148,8 @@ async function getDealsUserFields(link) {
 
         // Assuming the response contains an array of user fields
         if (response && response.result) {
-            const dateOfPaymentField = response.result.find(field => field.EDIT_FORM_LABEL === "Дата оплаты" || field.LIST_COLUMN_LABEL === "Дата оплаты" || field.LIST_FILTER_LABEL === "Дата оплаты");
+            const dateOfPaymentField = response.result.find(field => field.EDIT_FORM_LABEL === "Дата оплаты" || field.LIST_COLUMN_LABEL === "Дата оплаты" || field.LIST_FILTER_LABEL === "Дата оплаты"
+            || field.EDIT_FORM_LABEL === "Планируемая дата оплаты" || field.LIST_COLUMN_LABEL === "Предполагаемая дата оплаты" || field.LIST_FILTER_LABEL === "Предполагаемая дата оплаты");
 
             if (dateOfPaymentField) {
                 return dateOfPaymentField; // Return the specific user field
@@ -170,6 +199,7 @@ async function updateDealsClientsSummary(newData) {
         existingData.LAST_DEAL_DATE = newData.LAST_DEAL_DATE;
         existingData.CLIENTS_COUNT = newData.CLIENTS_COUNT;
         existingData.DEALS_COUNT = newData.DEALS_COUNT;
+        existingData.COMPANIES_COUNT = newData.COMPANIES_COUNT;
 
         // Записываем обновленные данные обратно в файл
         await fs.writeFile(dataFilePath, JSON.stringify(existingData, null, 4), 'utf-8');
@@ -180,4 +210,4 @@ async function updateDealsClientsSummary(newData) {
     }
 }
 
-module.exports = { readDataInfo, updateDealsData, updateClientsData }
+module.exports = { readDataInfo, updateDealsData, updateClientsData, updateCompaniesData }
