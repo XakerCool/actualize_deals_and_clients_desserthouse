@@ -40,7 +40,7 @@ async function updateCompaniesData(newData, currentOverallData) {
 
             const updatedDealsClientsSummaryData = {
                 DEALS_COUNT: currentOverallData.DEALS_COUNT,
-                CLIENTS_COUNT: currentOverallData.COMPANIES_COUNT,
+                CLIENTS_COUNT: currentOverallData.CLIENTS_COUNT,
                 COMPANIES_COUNT: newData.length,
                 LAST_DEAL_DATE: currentOverallData.LAST_DEAL_DATE
             }

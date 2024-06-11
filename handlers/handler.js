@@ -155,6 +155,7 @@ class Handler {
     async updateAndGetAllData(link) {
         try {
             await this.updateCompaniesHandler(link);
+            console.log("After companies")
             await this.updateDealsHandler(link);
             // await this.updateClientsHandler(link);
 
