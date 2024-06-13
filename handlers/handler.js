@@ -66,7 +66,7 @@ class Handler {
             const currentInfo = await this.readInfo()
             const currentCompaniesCount = currentInfo.COMPANIES_COUNT;
             const bx = Bitrix(link);
-            const result = await bx.companies.list({ SELECT: ["ID", "TITLE"] })
+            const result = await bx.companies.list({ SELECT: ["ID", "TITLE", "ASSIGNED_BY_ID"] })
             if (result.result.length > currentCompaniesCount) {
                 return result.result;
             } else {
