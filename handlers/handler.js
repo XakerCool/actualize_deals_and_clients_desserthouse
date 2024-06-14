@@ -26,7 +26,7 @@ class Handler {
             const currentInfo = await this.readInfo();
             const lastDealDate = currentInfo.LAST_DEAL_DATE;
             const bx = Bitrix(link);
-            const result = await bx.deals.list({ filter: { ">DATE_CREATE": lastDealDate } });
+            const result = await bx.deals.list({ filter: { ">=DATE_CREATE": lastDealDate } });
             if (result.result.length > 0) {
                 return result.result;
             } else {

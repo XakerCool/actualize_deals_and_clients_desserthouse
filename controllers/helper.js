@@ -112,13 +112,20 @@ async function updateDealsData(newData, currentOverallData, link) {
             await fs.writeFile(dataFilePath, JSON.stringify(updatedData, null, 4), 'utf8');
 
             // Update the last deal date in summary
-            let maxDate = new Date(0); // Start comparison with an old date
+            let maxDate = new Date(currentOverallData.LAST_DEAL_DATE); // Start comparison with an old date
             updatedData.forEach(item => {
-                const dealDate = new Date(item["Дата создания"]);
-                if (!isNaN(dealDate.getTime()) && dealDate > maxDate) {
+                let dealDate = null;
+                if (!isNaN(item["Дата создания"])) {
+                    dealDate = new Date(excelSerialDateToJSDate(item["Дата создания"]))
+                } else {
+                    dealDate = new Date(item["Дата создания"]);
+                }
+                if (dealDate > maxDate) {
                     maxDate = dealDate;
                 }
             });
+            maxDate.setHours(maxDate.getHours() + 3);
+
 
             const updatedDealsClientsSummaryData = {
                 DEALS_COUNT: updatedData.length,
@@ -208,6 +215,25 @@ async function updateDealsClientsSummary(newData) {
         console.error("Ошибка при обновлении общих данных:", error);
         logger.logError("Helper, updateDealsClientsSummary", error);
     }
+}
+
+function excelSerialDateToJSDate(serial) {
+    // Проверка на корректность и тип значения
+    if (typeof serial !== 'number' || serial < 0) {
+        return new Date(serial).toISOString().split('T')[0];
+    }
+
+    const excelEpoch = new Date(Date.UTC(1899, 11, 30)); // Корректировка: начало с 30 декабря 1899 года
+    const utc_days = Math.floor(serial);
+    const date_info = new Date(excelEpoch.getTime() + utc_days * 86400000);
+
+    // Проверка на корректность полученной даты
+    if (isNaN(date_info.getTime())) {
+        return null;
+    }
+
+    // Преобразование даты в формат YYYY-MM-DD
+    return date_info.toISOString().split('T')[0];
 }
 
 module.exports = { readDataInfo, updateDealsData, updateClientsData, updateCompaniesData }

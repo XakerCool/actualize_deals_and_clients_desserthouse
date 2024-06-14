@@ -20512,7 +20512,7 @@
     {
         "ID": "10280",
         "TITLE": "ТОО \"Атрикс-Строй\"",
-        "ASSIGNED_BY_ID": "16"
+        "ASSIGNED_BY_ID": "158"
     },
     {
         "ID": "10282",
@@ -34366,8 +34366,8 @@
     },
     {
         "ID": "17108",
-        "TITLE": "ТОО \"КАЗФОСФАТ\" \"ГОРНО-ПЕРЕРАБАТЫВАЮЩИЙ КОМПЛЕКС \"КАРАТАУ\"",
-        "ASSIGNED_BY_ID": "38"
+        "TITLE": "ТОО \"«INCORE MANAGEMENT» («ИНКОР МЕНЕДЖМЕНТ»)\"",
+        "ASSIGNED_BY_ID": "1"
     },
     {
         "ID": "17110",
@@ -38512,7 +38512,7 @@
     {
         "ID": "19282",
         "TITLE": "ТОО Caspian Integrated Services",
-        "ASSIGNED_BY_ID": "30"
+        "ASSIGNED_BY_ID": "186"
     },
     {
         "ID": "19288",
@@ -45777,7 +45777,7 @@
     {
         "ID": "22724",
         "TITLE": "ТОО \" Темир Пром ХХI\"",
-        "ASSIGNED_BY_ID": "48"
+        "ASSIGNED_BY_ID": "142"
     },
     {
         "ID": "22726",
@@ -47781,7 +47781,7 @@
     },
     {
         "ID": "23666",
-        "TITLE": "SAFA Capital",
+        "TITLE": "Товарищество с ограниченной ответственностью \"SAFA Capital\"",
         "ASSIGNED_BY_ID": "142"
     },
     {
@@ -47917,7 +47917,7 @@
     {
         "ID": "23720",
         "TITLE": "ТОО \"АрайСтройПроект\"",
-        "ASSIGNED_BY_ID": "114"
+        "ASSIGNED_BY_ID": "152"
     },
     {
         "ID": "23722",
@@ -47953,11 +47953,6 @@
         "ID": "23734",
         "TITLE": "ТОО «Art Office Group»",
         "ASSIGNED_BY_ID": "152"
-    },
-    {
-        "ID": "23736",
-        "TITLE": "ТОО \"САПА ҚҰРЫЛЫС 2007\"",
-        "ASSIGNED_BY_ID": "1"
     },
     {
         "ID": "23738",
@@ -48132,7 +48127,7 @@
     {
         "ID": "23828",
         "TITLE": "ТОО \"РААФ-ИНЖИНИРИНГ\"",
-        "ASSIGNED_BY_ID": "16"
+        "ASSIGNED_BY_ID": "184"
     },
     {
         "ID": "23830",
@@ -49343,5 +49338,95 @@
         "ID": "24410",
         "TITLE": "ТОО Temir-Stroi Group",
         "ASSIGNED_BY_ID": "38"
+    },
+    {
+        "ID": "24412",
+        "TITLE": "ТОО «Yellow Cube Production»",
+        "ASSIGNED_BY_ID": "38"
+    },
+    {
+        "ID": "24414",
+        "TITLE": "ТОО Мон Элит",
+        "ASSIGNED_BY_ID": "182"
+    },
+    {
+        "ID": "24418",
+        "TITLE": "АО «Варваринское»",
+        "ASSIGNED_BY_ID": "10"
+    },
+    {
+        "ID": "24420",
+        "TITLE": "ТОО \"УК ТЭЦ\"",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24422",
+        "TITLE": "ТОО \"Grand_Astana.kz\"",
+        "ASSIGNED_BY_ID": "48"
+    },
+    {
+        "ID": "24424",
+        "TITLE": "ТОО \"Евро Металл-Алматы\"",
+        "ASSIGNED_BY_ID": "158"
+    },
+    {
+        "ID": "24426",
+        "TITLE": "ТОО «Orbis Construction»",
+        "ASSIGNED_BY_ID": "1"
+    },
+    {
+        "ID": "24428",
+        "TITLE": "ТОО \"CASPIAN SUPPLY SOLUTIONS (КАСПИАН САППЛАЙ СОЛЮШНС)\"",
+        "ASSIGNED_BY_ID": "1"
+    },
+    {
+        "ID": "24430",
+        "TITLE": "ТОО Каскор-Машзавод",
+        "ASSIGNED_BY_ID": "1"
+    },
+    {
+        "ID": "24432",
+        "TITLE": "Товарищество с ограниченной ответственностью \"АрайСтройПроект\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24434",
+        "TITLE": "ТОО \"Самгау Корпорация\"",
+        "ASSIGNED_BY_ID": "10"
+    },
+    {
+        "ID": "24436",
+        "TITLE": "ТОО \"GORILLA ASIA\" (\"ГОРИЛЛА АЗИЯ\")",
+        "ASSIGNED_BY_ID": "186"
+    },
+    {
+        "ID": "24438",
+        "TITLE": "ТОО «Region Development»",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24440",
+        "TITLE": "ТОВАРИЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ПРОФЕССИОНАЛЬНЫЕ ОХРАННЫЕ СИСТЕМЫ\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24446",
+        "TITLE": "Ип Дидар",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24448",
+        "TITLE": "ИП Адал еңбек",
+        "ASSIGNED_BY_ID": "48"
+    },
+    {
+        "ID": "24452",
+        "TITLE": "ТОО \"BAUDOS COMPANY\"",
+        "ASSIGNED_BY_ID": "142"
+    },
+    {
+        "ID": "24454",
+        "TITLE": "АО «Ахметов Владислав Зейнетуллаевич»",
+        "ASSIGNED_BY_ID": "10"
     }
 ]
