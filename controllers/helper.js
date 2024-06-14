@@ -99,11 +99,11 @@ async function updateDealsData(newData, currentOverallData, link) {
                 if (deal && fieldName) {
                     updatedData.push({
                         "ID": deal["ID"] || null,
-                        "Дата создания": deal["DATE_CREATE"] || null,
-                        "Дата оплаты": deal[fieldName] || null,
-                        "Клиент: ID": deal["CONTACT_ID"] || null,
-                        "Комания: ID": deal["COMPANY_ID"] || null,
-                        "Сумма": deal["OPPORTUNITY"] || null
+                        "DATE_CREATE": deal["DATE_CREATE"] ? deal["DATE_CREATE"] : null,
+                        "PAYMENT_DATE": deal[fieldName] ? deal["fieldName"] : null,
+                        "CLIENT_ID": deal["CONTACT_ID"] ? deal["CONTACT_ID"] : null,
+                        "COMPANY_ID": deal["COMPANY_ID"] ? deal["COMPANY_ID"] : null,
+                        "OPPORTUNITY": deal["OPPORTUNITY"] ? deal["OPPORTUNITY"] : null
                     });
                 }
             });
@@ -115,17 +115,16 @@ async function updateDealsData(newData, currentOverallData, link) {
             let maxDate = new Date(currentOverallData.LAST_DEAL_DATE); // Start comparison with an old date
             updatedData.forEach(item => {
                 let dealDate = null;
-                if (!isNaN(item["Дата создания"])) {
-                    dealDate = new Date(excelSerialDateToJSDate(item["Дата создания"]))
+                if (!isNaN(item["DATE_CREATE"])) {
+                    dealDate = new Date(excelSerialDateToJSDate(item["DATE_CREATE"]))
                 } else {
-                    dealDate = new Date(item["Дата создания"]);
+                    dealDate = new Date(item["DATE_CREATE"]);
                 }
                 if (dealDate > maxDate) {
                     maxDate = dealDate;
                 }
             });
             maxDate.setHours(maxDate.getHours() + 3);
-
 
             const updatedDealsClientsSummaryData = {
                 DEALS_COUNT: updatedData.length,
@@ -219,21 +218,25 @@ async function updateDealsClientsSummary(newData) {
 
 function excelSerialDateToJSDate(serial) {
     // Проверка на корректность и тип значения
-    if (typeof serial !== 'number' || serial < 0) {
-        return new Date(serial).toISOString().split('T')[0];
-    }
+    if (serial) {
+        if (typeof serial !== 'number' || serial < 0) {
+            return new Date(serial).toISOString().split('T')[0];
+        }
 
-    const excelEpoch = new Date(Date.UTC(1899, 11, 30)); // Корректировка: начало с 30 декабря 1899 года
-    const utc_days = Math.floor(serial);
-    const date_info = new Date(excelEpoch.getTime() + utc_days * 86400000);
+        const excelEpoch = new Date(Date.UTC(1899, 11, 30)); // Корректировка: начало с 30 декабря 1899 года
+        const utc_days = Math.floor(serial);
+        const date_info = new Date(excelEpoch.getTime() + utc_days * 86400000);
 
-    // Проверка на корректность полученной даты
-    if (isNaN(date_info.getTime())) {
+        // Проверка на корректность полученной даты
+        if (isNaN(date_info.getTime())) {
+            return null;
+        }
+
+        // Преобразование даты в формат YYYY-MM-DD
+        return date_info.toISOString().split('T')[0];
+    } else {
         return null;
     }
-
-    // Преобразование даты в формат YYYY-MM-DD
-    return date_info.toISOString().split('T')[0];
 }
 
 module.exports = { readDataInfo, updateDealsData, updateClientsData, updateCompaniesData }
