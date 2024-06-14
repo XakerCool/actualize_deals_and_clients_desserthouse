@@ -1,8 +1,0 @@
-14.06.2024, 20:06:03 - Source: Helper, updateDealsData
-Error: RangeError: Invalid time value
-    at Date.toISOString (<anonymous>)
-    at excelSerialDateToJSDate (C:\Users\xaker\WebstormProjects\actualize_data_desserthouse\controllers\helper.js:233:33)
-    at C:\Users\xaker\WebstormProjects\actualize_data_desserthouse\controllers\helper.js:97:37
-    at Array.forEach (<anonymous>)
-    at C:\Users\xaker\WebstormProjects\actualize_data_desserthouse\controllers\helper.js:93:26
-
