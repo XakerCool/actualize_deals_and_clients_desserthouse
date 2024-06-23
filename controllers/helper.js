@@ -164,7 +164,6 @@ async function getDealsUserFields(link) {
             }
         } else {
             logger.logError("Helper, getDealsUserFields", "No user fields found or invalid response structure.");
-            console.log();
             return null;
         }
     } catch (error) {
@@ -239,4 +238,23 @@ function excelSerialDateToJSDate(serial) {
     }
 }
 
-module.exports = { readDataInfo, updateDealsData, updateClientsData, updateCompaniesData }
+async function markCompanyOnCall(ids) {
+    try {
+        const dataFilePath = path.join(__dirname, companiesFilePath);
+        let rawData = await fs.readFile(dataFilePath, 'utf8');
+        let companies = JSON.parse(rawData)
+        companies = companies.map(company => {
+            return {
+                ...company,
+                ON_CALL: ids.includes(company.ID)
+            };
+        });
+        await fs.writeFile(dataFilePath, JSON.stringify(companies, null, 2), 'utf8');
+        return true;
+    } catch (err) {
+        logger.logError("Helper, updateDealsData", err);
+        return false;
+    }
+}
+
+module.exports = { readDataInfo, updateDealsData, updateClientsData, updateCompaniesData, markCompanyOnCall }

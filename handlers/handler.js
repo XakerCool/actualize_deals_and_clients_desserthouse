@@ -1,7 +1,7 @@
 const { Bitrix } = require("@2bad/bitrix");
 const { readDataInfo, updateDealsData, getLastDealDate } = require('../controllers/helper.js');
 const logger = require("../logger/logger");
-const { updateClientsData, updateCompaniesData} = require("../controllers/helper");
+const { updateClientsData, updateCompaniesData, markCompanyOnCall} = require("../controllers/helper");
 const { getDealsFromFile } = require("../controllers/deals");
 const { getClientsFromFile } = require("../controllers/clients");
 const { getCompaniesFromFile } = require("../controllers/companies");
@@ -155,7 +155,6 @@ class Handler {
     async updateAndGetAllData(link) {
         try {
             await this.updateCompaniesHandler(link);
-            console.log("After companies")
             await this.updateDealsHandler(link);
             // await this.updateClientsHandler(link);
 
@@ -177,6 +176,16 @@ class Handler {
             };
         } catch (error) {
             logger.logError("HANDLER updateAndGetAllData", error);
+            return null;
+        }
+    }
+
+    // Хендлер для отмечения компаний которые поставили на прозвон
+    async markCompaniesOnCallHandler(contactsIds) {
+        try {
+            return await markCompanyOnCall(contactsIds);
+        } catch (error) {
+            logger.logError("HANDLER markClientHandler", error);
             return null;
         }
     }

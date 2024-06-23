@@ -1276,7 +1276,7 @@
     },
     {
         "ID": "578",
-        "TITLE": "ТОО \"ИнвестСтройКом\" номер не рабочий",
+        "TITLE": "ТОО \"ИнвестСтройКом\"",
         "ASSIGNED_BY_ID": "182"
     },
     {
@@ -3590,11 +3590,6 @@
         "ASSIGNED_BY_ID": "184"
     },
     {
-        "ID": "1664",
-        "TITLE": "ТОО \"Потенциал Energy\"",
-        "ASSIGNED_BY_ID": "30"
-    },
-    {
         "ID": "1666",
         "TITLE": "ТОО \"Эгида Group\"",
         "ASSIGNED_BY_ID": "114"
@@ -4171,7 +4166,7 @@
     },
     {
         "ID": "1932",
-        "TITLE": "ТОО \"КОСТАНАЙ ЭНЕРГО\"",
+        "TITLE": "ТОО \"Костанай Энерго Ресурс\"",
         "ASSIGNED_BY_ID": "158"
     },
     {
@@ -4686,7 +4681,7 @@
     },
     {
         "ID": "2182",
-        "TITLE": "ТОО \"Северный Фанерный Комбинат\"",
+        "TITLE": "ТОО \"Северный Фанерный Комбинат\" выключен",
         "ASSIGNED_BY_ID": "182"
     },
     {
@@ -4776,7 +4771,7 @@
     },
     {
         "ID": "2220",
-        "TITLE": "ТОО \"Global Gaz Energy\" Нуржан ",
+        "TITLE": "ТОО \"Global Gaz Energy\" Нуржан",
         "ASSIGNED_BY_ID": "182"
     },
     {
@@ -5320,11 +5315,6 @@
         "ASSIGNED_BY_ID": "126"
     },
     {
-        "ID": "2484",
-        "TITLE": "ТОО «Р.Е.Т.»",
-        "ASSIGNED_BY_ID": "10"
-    },
-    {
         "ID": "2486",
         "TITLE": "ТОО \"РЕМСТРОЙ АЛМАТЫ\"",
         "ASSIGNED_BY_ID": "158"
@@ -5537,7 +5527,7 @@
     {
         "ID": "2584",
         "TITLE": "ТОО \"Исхан Техногаз\"",
-        "ASSIGNED_BY_ID": "128"
+        "ASSIGNED_BY_ID": "184"
     },
     {
         "ID": "2590",
@@ -5958,11 +5948,6 @@
         "ID": "2798",
         "TITLE": "ТОО \"ДЕКОР ПРЕМИУМ\"",
         "ASSIGNED_BY_ID": "30"
-    },
-    {
-        "ID": "2804",
-        "TITLE": "«ЭлектроБИТ»",
-        "ASSIGNED_BY_ID": "1"
     },
     {
         "ID": "2806",
@@ -7011,7 +6996,7 @@
     },
     {
         "ID": "3304",
-        "TITLE": "ТОО «Eurasian Machinery»",
+        "TITLE": "ТОО \"Eurasian Machinery\"(Евразиан Машинери)",
         "ASSIGNED_BY_ID": "158"
     },
     {
@@ -7595,11 +7580,6 @@
         "ASSIGNED_BY_ID": "20"
     },
     {
-        "ID": "3592",
-        "TITLE": "ПЕРЕКУП — ТОО \"Сталепромышленная компания Алматы\"",
-        "ASSIGNED_BY_ID": "72"
-    },
-    {
         "ID": "3594",
         "TITLE": "ТОО \"АСТРА-2010\"",
         "ASSIGNED_BY_ID": "20"
@@ -8017,7 +7997,7 @@
     {
         "ID": "3792",
         "TITLE": "ТОО Ажио",
-        "ASSIGNED_BY_ID": "158"
+        "ASSIGNED_BY_ID": "42"
     },
     {
         "ID": "3796",
@@ -8180,11 +8160,6 @@
         "ASSIGNED_BY_ID": "176"
     },
     {
-        "ID": "3878",
-        "TITLE": "ТОО \"«INCORE MANAGEMENT»",
-        "ASSIGNED_BY_ID": "142"
-    },
-    {
         "ID": "3880",
         "TITLE": "ИП «2 SERVICE»",
         "ASSIGNED_BY_ID": "158"
@@ -8253,11 +8228,6 @@
         "ID": "3914",
         "TITLE": "ИП \"Гречихин\"",
         "ASSIGNED_BY_ID": "10"
-    },
-    {
-        "ID": "3916",
-        "TITLE": "ТОО \"Caspian Supply Solutions\"",
-        "ASSIGNED_BY_ID": "1"
     },
     {
         "ID": "3918",
@@ -9902,7 +9872,7 @@
     {
         "ID": "4768",
         "TITLE": "ТОО АстанаПромИнжиниринг",
-        "ASSIGNED_BY_ID": "128"
+        "ASSIGNED_BY_ID": "16"
     },
     {
         "ID": "4770",
@@ -15702,7 +15672,7 @@
     {
         "ID": "7658",
         "TITLE": "«Институт атомной энергии»",
-        "ASSIGNED_BY_ID": "128"
+        "ASSIGNED_BY_ID": "16"
     },
     {
         "ID": "7660",
@@ -16247,7 +16217,7 @@
     {
         "ID": "7972",
         "TITLE": "ИП \"Ыдыс опто лайн\"",
-        "ASSIGNED_BY_ID": "158"
+        "ASSIGNED_BY_ID": "166"
     },
     {
         "ID": "7974",
@@ -16307,7 +16277,7 @@
     {
         "ID": "8006",
         "TITLE": "ТОО \"CCP\"",
-        "ASSIGNED_BY_ID": "128"
+        "ASSIGNED_BY_ID": "52"
     },
     {
         "ID": "8008",
@@ -16743,11 +16713,6 @@
         "ID": "8274",
         "TITLE": "ТОО Стройшахтопроект",
         "ASSIGNED_BY_ID": "30"
-    },
-    {
-        "ID": "8278",
-        "TITLE": "ТОО \"GAB Constuction\"",
-        "ASSIGNED_BY_ID": "158"
     },
     {
         "ID": "8280",
@@ -18212,7 +18177,7 @@
     {
         "ID": "9102",
         "TITLE": "ТОО «Qareket Engineering»",
-        "ASSIGNED_BY_ID": "158"
+        "ASSIGNED_BY_ID": "190"
     },
     {
         "ID": "9104",
@@ -18857,7 +18822,7 @@
     {
         "ID": "9454",
         "TITLE": "АКТЮБИНСКИЙ ФИЛИАЛ АО \"JUSAN MOBILE\"",
-        "ASSIGNED_BY_ID": "38"
+        "ASSIGNED_BY_ID": "126"
     },
     {
         "ID": "9456",
@@ -19070,11 +19035,6 @@
         "ASSIGNED_BY_ID": "38"
     },
     {
-        "ID": "9564",
-        "TITLE": "ТОО \"Аквадом\"",
-        "ASSIGNED_BY_ID": "20"
-    },
-    {
         "ID": "9570",
         "TITLE": "ТОО \"U KOMPANY\"",
         "ASSIGNED_BY_ID": "114"
@@ -19222,7 +19182,7 @@
     {
         "ID": "9642",
         "TITLE": "ТОО «Gornyi Capital»",
-        "ASSIGNED_BY_ID": "38"
+        "ASSIGNED_BY_ID": "184"
     },
     {
         "ID": "9644",
@@ -22757,7 +22717,7 @@
     {
         "ID": "11450",
         "TITLE": "ТОО \"CREATIO GROUP\"",
-        "ASSIGNED_BY_ID": "158"
+        "ASSIGNED_BY_ID": "114"
     },
     {
         "ID": "11452",
@@ -24570,11 +24530,6 @@
         "ASSIGNED_BY_ID": "10"
     },
     {
-        "ID": "12352",
-        "TITLE": "ТОО \"GAB Construction\"",
-        "ASSIGNED_BY_ID": "158"
-    },
-    {
         "ID": "12354",
         "TITLE": "TOO AVK COMPANY",
         "ASSIGNED_BY_ID": "142"
@@ -25757,7 +25712,7 @@
     {
         "ID": "12942",
         "TITLE": "АО «Институт «КазНИПИЭнергопром»",
-        "ASSIGNED_BY_ID": "68"
+        "ASSIGNED_BY_ID": "158"
     },
     {
         "ID": "12944",
@@ -27755,11 +27710,6 @@
         "ASSIGNED_BY_ID": "20"
     },
     {
-        "ID": "13954",
-        "TITLE": "ТОО \"RETAINING STRUCTURE\"",
-        "ASSIGNED_BY_ID": "128"
-    },
-    {
         "ID": "13956",
         "TITLE": "ТОО \"Gipermarket Mebeli (Гипермаркет Мебели)\"",
         "ASSIGNED_BY_ID": "124"
@@ -28740,11 +28690,6 @@
         "ASSIGNED_BY_ID": "158"
     },
     {
-        "ID": "14425",
-        "TITLE": "ТОО \"Карагандапромсервис\"",
-        "ASSIGNED_BY_ID": "10"
-    },
-    {
         "ID": "14427",
         "TITLE": "ТОО Монолит Строй",
         "ASSIGNED_BY_ID": "128"
@@ -29642,7 +29587,7 @@
     {
         "ID": "14834",
         "TITLE": "ТОО Terra Exploration",
-        "ASSIGNED_BY_ID": "12"
+        "ASSIGNED_BY_ID": "64"
     },
     {
         "ID": "14836",
@@ -29822,7 +29767,7 @@
     {
         "ID": "14924",
         "TITLE": "ТОО «Казфосфат»",
-        "ASSIGNED_BY_ID": "64"
+        "ASSIGNED_BY_ID": "20"
     },
     {
         "ID": "14926",
@@ -31747,7 +31692,7 @@
     {
         "ID": "15844",
         "TITLE": "ТОО \"ПРОМ СЕРВИС АБР\" ",
-        "ASSIGNED_BY_ID": "142"
+        "ASSIGNED_BY_ID": "186"
     },
     {
         "ID": "15846",
@@ -31872,7 +31817,7 @@
     {
         "ID": "15912",
         "TITLE": "ТОО \"Нефтестройсервис ltd\"",
-        "ASSIGNED_BY_ID": "12"
+        "ASSIGNED_BY_ID": "158"
     },
     {
         "ID": "15914",
@@ -32105,11 +32050,6 @@
         "ASSIGNED_BY_ID": "10"
     },
     {
-        "ID": "16028",
-        "TITLE": "Группа компаний SAM",
-        "ASSIGNED_BY_ID": "128"
-    },
-    {
         "ID": "16030",
         "TITLE": "ТОО \"Роял Инвестмент\"",
         "ASSIGNED_BY_ID": "10"
@@ -32213,11 +32153,6 @@
         "ID": "16080",
         "TITLE": "ТОО Ариал Груп",
         "ASSIGNED_BY_ID": "128"
-    },
-    {
-        "ID": "16082",
-        "TITLE": "ТОО \"Caspian Supply Solutions\"",
-        "ASSIGNED_BY_ID": "16"
     },
     {
         "ID": "16084",
@@ -32940,11 +32875,6 @@
         "ASSIGNED_BY_ID": "16"
     },
     {
-        "ID": "16434",
-        "TITLE": "ТОО BiGlobal",
-        "ASSIGNED_BY_ID": "128"
-    },
-    {
         "ID": "16436",
         "TITLE": "ТОО «Abroy Group»",
         "ASSIGNED_BY_ID": "158"
@@ -33187,7 +33117,7 @@
     {
         "ID": "16548",
         "TITLE": "ТОО «АГС-ПЛАСТ»",
-        "ASSIGNED_BY_ID": "16"
+        "ASSIGNED_BY_ID": "10"
     },
     {
         "ID": "16550",
@@ -34367,7 +34297,7 @@
     {
         "ID": "17108",
         "TITLE": "ТОО \"«INCORE MANAGEMENT» («ИНКОР МЕНЕДЖМЕНТ»)\"",
-        "ASSIGNED_BY_ID": "1"
+        "ASSIGNED_BY_ID": "142"
     },
     {
         "ID": "17110",
@@ -35337,7 +35267,7 @@
     {
         "ID": "17628",
         "TITLE": "ТОО \"ЖИГЕРМУНАЙСЕРВИС\"",
-        "ASSIGNED_BY_ID": "158"
+        "ASSIGNED_BY_ID": "192"
     },
     {
         "ID": "17634",
@@ -35502,7 +35432,7 @@
     {
         "ID": "17718",
         "TITLE": "ТОО «АКВА ДОМ»",
-        "ASSIGNED_BY_ID": "158"
+        "ASSIGNED_BY_ID": "186"
     },
     {
         "ID": "17724",
@@ -35982,7 +35912,7 @@
     {
         "ID": "17966",
         "TITLE": "INK Trade",
-        "ASSIGNED_BY_ID": "64"
+        "ASSIGNED_BY_ID": "142"
     },
     {
         "ID": "17968",
@@ -36093,11 +36023,6 @@
         "ID": "18014",
         "TITLE": "ТОО \"Qaz Rail Automatic\"",
         "ASSIGNED_BY_ID": "128"
-    },
-    {
-        "ID": "18018",
-        "TITLE": "ТОО Terra Exploration",
-        "ASSIGNED_BY_ID": "1"
     },
     {
         "ID": "18022",
@@ -37615,11 +37540,6 @@
         "ASSIGNED_BY_ID": "158"
     },
     {
-        "ID": "18842",
-        "TITLE": "ТОО «Торговая компания B&A»",
-        "ASSIGNED_BY_ID": "70"
-    },
-    {
         "ID": "18844",
         "TITLE": "ТОО «Ай ви Ай груп»",
         "ASSIGNED_BY_ID": "30"
@@ -38397,7 +38317,7 @@
     {
         "ID": "19220",
         "TITLE": "АО \"АВИАРЕМОНТНЫЙ ЗАВОД № 405\"",
-        "ASSIGNED_BY_ID": "68"
+        "ASSIGNED_BY_ID": "184"
     },
     {
         "ID": "19222",
@@ -38725,11 +38645,6 @@
         "ASSIGNED_BY_ID": "42"
     },
     {
-        "ID": "19386",
-        "TITLE": "Товарищество с ограниченной ответственностью \"Производственное объединение Трубное решение Казахстан\"",
-        "ASSIGNED_BY_ID": "142"
-    },
-    {
         "ID": "19390",
         "TITLE": "медицинский колледж \"томирис\"",
         "ASSIGNED_BY_ID": "142"
@@ -38875,11 +38790,6 @@
         "ASSIGNED_BY_ID": "30"
     },
     {
-        "ID": "19466",
-        "TITLE": "ТОО \"KZ Recycling\"",
-        "ASSIGNED_BY_ID": "48"
-    },
-    {
         "ID": "19468",
         "TITLE": "ТОО Термомакс",
         "ASSIGNED_BY_ID": "30"
@@ -38887,7 +38797,7 @@
     {
         "ID": "19470",
         "TITLE": "ТОО \"ЭКОПОЛИС ГРУП\"",
-        "ASSIGNED_BY_ID": "42"
+        "ASSIGNED_BY_ID": "186"
     },
     {
         "ID": "19472",
@@ -39042,7 +38952,7 @@
     {
         "ID": "19548",
         "TITLE": "ТОО \"RG PROCESSING (РГ ПРОЦЕССИНГ) \"",
-        "ASSIGNED_BY_ID": "38"
+        "ASSIGNED_BY_ID": "68"
     },
     {
         "ID": "19550",
@@ -39647,7 +39557,7 @@
     {
         "ID": "19838",
         "TITLE": "ТОО \"GS QURYLYS\"",
-        "ASSIGNED_BY_ID": "114"
+        "ASSIGNED_BY_ID": "1"
     },
     {
         "ID": "19840",
@@ -39768,11 +39678,6 @@
         "ID": "19890",
         "TITLE": "ИП \"жарык\"",
         "ASSIGNED_BY_ID": "142"
-    },
-    {
-        "ID": "19892",
-        "TITLE": "ТОО \"ABAI HOLDING\"",
-        "ASSIGNED_BY_ID": "126"
     },
     {
         "ID": "19894",
@@ -40237,12 +40142,7 @@
     {
         "ID": "20094",
         "TITLE": "ТОО «KITNG",
-        "ASSIGNED_BY_ID": "72"
-    },
-    {
-        "ID": "20096",
-        "TITLE": "ТОО KITNG",
-        "ASSIGNED_BY_ID": "52"
+        "ASSIGNED_BY_ID": "128"
     },
     {
         "ID": "20098",
@@ -40503,11 +40403,6 @@
         "ID": "20218",
         "TITLE": "ТОО ОмигСпецСтрой",
         "ASSIGNED_BY_ID": "30"
-    },
-    {
-        "ID": "20220",
-        "TITLE": "ТОО «НДФЗ»",
-        "ASSIGNED_BY_ID": "68"
     },
     {
         "ID": "20222",
@@ -40868,11 +40763,6 @@
         "ID": "20392",
         "TITLE": "ТОО «МТТ Групп»",
         "ASSIGNED_BY_ID": "42"
-    },
-    {
-        "ID": "20396",
-        "TITLE": "ТОО «Caspian Supply Solutions (Каспиансапплайсолюшнс)»",
-        "ASSIGNED_BY_ID": "52"
     },
     {
         "ID": "20398",
@@ -41608,11 +41498,6 @@
         "ID": "20734",
         "TITLE": "ТОО \"ТехноХолдинг-М\"",
         "ASSIGNED_BY_ID": "52"
-    },
-    {
-        "ID": "20738",
-        "TITLE": "ТОО «Торговая компания B&A»",
-        "ASSIGNED_BY_ID": "16"
     },
     {
         "ID": "20740",
@@ -42752,7 +42637,7 @@
     {
         "ID": "21288",
         "TITLE": "Алматы Construction.БМ",
-        "ASSIGNED_BY_ID": "70"
+        "ASSIGNED_BY_ID": "48"
     },
     {
         "ID": "21294",
@@ -42927,7 +42812,7 @@
     {
         "ID": "21384",
         "TITLE": "ТОО \"Бизнес Строй-2023\"",
-        "ASSIGNED_BY_ID": "16"
+        "ASSIGNED_BY_ID": "1"
     },
     {
         "ID": "21386",
@@ -43662,11 +43547,6 @@
     {
         "ID": "21744",
         "TITLE": "ИП«YERASSYL»",
-        "ASSIGNED_BY_ID": "38"
-    },
-    {
-        "ID": "21748",
-        "TITLE": "ТОО «Торговая компания B&A»",
         "ASSIGNED_BY_ID": "38"
     },
     {
@@ -44887,7 +44767,7 @@
     {
         "ID": "22310",
         "TITLE": "ТОО «Алматы Production Construction & Invest»",
-        "ASSIGNED_BY_ID": "114"
+        "ASSIGNED_BY_ID": "1"
     },
     {
         "ID": "22314",
@@ -44977,7 +44857,7 @@
     {
         "ID": "22362",
         "TITLE": "АО Степногорский подшипниковый завод",
-        "ASSIGNED_BY_ID": "184"
+        "ASSIGNED_BY_ID": "12"
     },
     {
         "ID": "22364",
@@ -45227,7 +45107,7 @@
     {
         "ID": "22476",
         "TITLE": "ТОО \"Сервисный центр ERG\"",
-        "ASSIGNED_BY_ID": "38"
+        "ASSIGNED_BY_ID": "16"
     },
     {
         "ID": "22478",
@@ -45726,8 +45606,8 @@
     },
     {
         "ID": "22704",
-        "TITLE": " ТОО VERSLO",
-        "ASSIGNED_BY_ID": "126"
+        "TITLE": "ТОО VERSLO",
+        "ASSIGNED_BY_ID": "152"
     },
     {
         "ID": "22706",
@@ -45837,7 +45717,7 @@
     {
         "ID": "22750",
         "TITLE": "ТОО \"NZ-Group\"",
-        "ASSIGNED_BY_ID": "1"
+        "ASSIGNED_BY_ID": "48"
     },
     {
         "ID": "22752",
@@ -45973,11 +45853,6 @@
         "ID": "22812",
         "TITLE": "Общественный Фонд \"Engineering Development Fund\"",
         "ASSIGNED_BY_ID": "126"
-    },
-    {
-        "ID": "22814",
-        "TITLE": "ТОО \"ENGINEERING CENTER LTD\"",
-        "ASSIGNED_BY_ID": "70"
     },
     {
         "ID": "22816",
@@ -46188,11 +46063,6 @@
         "ID": "22904",
         "TITLE": "ТОО \"Alkon Trade\"",
         "ASSIGNED_BY_ID": "42"
-    },
-    {
-        "ID": "22906",
-        "TITLE": "ТОО «DIA Engineering Group»",
-        "ASSIGNED_BY_ID": "38"
     },
     {
         "ID": "22908",
@@ -46467,7 +46337,7 @@
     {
         "ID": "23026",
         "TITLE": "ТОО «Триумф Технолоджи»",
-        "ASSIGNED_BY_ID": "36"
+        "ASSIGNED_BY_ID": "186"
     },
     {
         "ID": "23028",
@@ -47076,7 +46946,7 @@
     },
     {
         "ID": "23312",
-        "TITLE": "Neftestroiservice Ltd LLP",
+        "TITLE": "ТОО \"Нефтестройсервис Лтд\"",
         "ASSIGNED_BY_ID": "158"
     },
     {
@@ -47398,11 +47268,6 @@
         "ID": "23496",
         "TITLE": "ТОО «КУЛ-БАС»",
         "ASSIGNED_BY_ID": "1"
-    },
-    {
-        "ID": "23498",
-        "TITLE": "Торговая компания B&A",
-        "ASSIGNED_BY_ID": "70"
     },
     {
         "ID": "23502",
@@ -47820,11 +47685,6 @@
         "ASSIGNED_BY_ID": "152"
     },
     {
-        "ID": "23682",
-        "TITLE": "ТОО «Казахалтын Technology»",
-        "ASSIGNED_BY_ID": "1"
-    },
-    {
         "ID": "23684",
         "TITLE": "ТОО \"Нур-Жол-А\"",
         "ASSIGNED_BY_ID": "68"
@@ -47913,11 +47773,6 @@
         "ID": "23718",
         "TITLE": "АО «АгромашХолдинг KZ»",
         "ASSIGNED_BY_ID": "42"
-    },
-    {
-        "ID": "23720",
-        "TITLE": "ТОО \"АрайСтройПроект\"",
-        "ASSIGNED_BY_ID": "152"
     },
     {
         "ID": "23722",
@@ -48090,11 +47945,6 @@
         "ASSIGNED_BY_ID": "1"
     },
     {
-        "ID": "23810",
-        "TITLE": "АКЦИОНЕРНОЕ ОБЩЕСТВО КОМПАНИЯ \"МОНТАЖСПЕЦСТРОЙ\"",
-        "ASSIGNED_BY_ID": "1"
-    },
-    {
         "ID": "23812",
         "TITLE": "TOO \"ZAYSAN\"",
         "ASSIGNED_BY_ID": "70"
@@ -48245,11 +48095,6 @@
         "ASSIGNED_BY_ID": "16"
     },
     {
-        "ID": "23880",
-        "TITLE": "Senior Procurement Specialist of Procurement Department",
-        "ASSIGNED_BY_ID": "20"
-    },
-    {
         "ID": "23882",
         "TITLE": "ОО Танцевально-спортивный клуб \"ГРАНД\"",
         "ASSIGNED_BY_ID": "52"
@@ -48263,11 +48108,6 @@
         "ID": "23888",
         "TITLE": "ТОО \"ЭКСПО-ТРАНС\"",
         "ASSIGNED_BY_ID": "68"
-    },
-    {
-        "ID": "23890",
-        "TITLE": "ФИЛИАЛ «ИНСТИТУТ АТОМНОЙ ЭНЕРГИИ» РЕСПУБЛИКАНСКОГО ГОСУДАРСТВЕННОГО ПРЕДПРИЯТИЯ НА ПРАВЕ ХОЗЯЙСТВЕННОГО ВЕДЕНИЯ «НАЦИОНАЛЬНЫЙ ЯДЕРНЫЙ ЦЕНТР РЕСПУБЛИКИ КАЗАХСТАН» МИНИСТЕРСТВА ЭНЕРГЕТИКИ РЕСПУБЛИКИ КАЗАХСТАН",
-        "ASSIGNED_BY_ID": "1"
     },
     {
         "ID": "23892",
@@ -48922,7 +48762,7 @@
     {
         "ID": "24192",
         "TITLE": "ПЕРВЫЙ ПИВЗАВОД\"",
-        "ASSIGNED_BY_ID": "186"
+        "ASSIGNED_BY_ID": "68"
     },
     {
         "ID": "24194",
@@ -49370,19 +49210,9 @@
         "ASSIGNED_BY_ID": "158"
     },
     {
-        "ID": "24426",
-        "TITLE": "ТОО «Orbis Construction»",
-        "ASSIGNED_BY_ID": "1"
-    },
-    {
         "ID": "24428",
         "TITLE": "ТОО \"CASPIAN SUPPLY SOLUTIONS (КАСПИАН САППЛАЙ СОЛЮШНС)\"",
-        "ASSIGNED_BY_ID": "1"
-    },
-    {
-        "ID": "24430",
-        "TITLE": "ТОО Каскор-Машзавод",
-        "ASSIGNED_BY_ID": "1"
+        "ASSIGNED_BY_ID": "142"
     },
     {
         "ID": "24432",
@@ -49426,7 +49256,537 @@
     },
     {
         "ID": "24454",
-        "TITLE": "АО «Ахметов Владислав Зейнетуллаевич»",
+        "TITLE": "ИП  «Ахметов Владислав Зейнетуллаевич»",
         "ASSIGNED_BY_ID": "10"
+    },
+    {
+        "ID": "24456",
+        "TITLE": "ИП «Чемоданова Флура\"",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24460",
+        "TITLE": "ТОВАРИЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"STROY GROUP\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24462",
+        "TITLE": "ТОО «SherqalaPetroleum»",
+        "ASSIGNED_BY_ID": "192"
+    },
+    {
+        "ID": "24464",
+        "TITLE": "ИП Алаш",
+        "ASSIGNED_BY_ID": "126"
+    },
+    {
+        "ID": "24466",
+        "TITLE": "ТОО \"Kaztor Ltd\"",
+        "ASSIGNED_BY_ID": "158"
+    },
+    {
+        "ID": "24468",
+        "TITLE": "ИП Абибулла",
+        "ASSIGNED_BY_ID": "126"
+    },
+    {
+        "ID": "24470",
+        "TITLE": "ТОО \"Эверест - С\"",
+        "ASSIGNED_BY_ID": "182"
+    },
+    {
+        "ID": "24472",
+        "TITLE": "ТОО «BiGlobal»",
+        "ASSIGNED_BY_ID": "48"
+    },
+    {
+        "ID": "24476",
+        "TITLE": "ТОО\"Транспортно-экспедиторская компания \"ETF-Trans\"\"",
+        "ASSIGNED_BY_ID": "48"
+    },
+    {
+        "ID": "24478",
+        "TITLE": "BEST PLAZA",
+        "ASSIGNED_BY_ID": "64"
+    },
+    {
+        "ID": "24480",
+        "TITLE": "ОсОО \"Мастер Блок КейДжи\"",
+        "ASSIGNED_BY_ID": "64"
+    },
+    {
+        "ID": "24482",
+        "TITLE": "Универсал реклама",
+        "ASSIGNED_BY_ID": "48"
+    },
+    {
+        "ID": "24484",
+        "TITLE": "Жигермунайсервис",
+        "ASSIGNED_BY_ID": "192"
+    },
+    {
+        "ID": "24488",
+        "TITLE": "Без названия",
+        "ASSIGNED_BY_ID": "1"
+    },
+    {
+        "ID": "24490",
+        "TITLE": "ао «степногорский подшипниковый завод»",
+        "ASSIGNED_BY_ID": "12"
+    },
+    {
+        "ID": "24492",
+        "TITLE": "ТОО «Монтаж  Строй  KZ  2022»",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24494",
+        "TITLE": "ТОО «KD 0404»",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24496",
+        "TITLE": "АO  \"Шубарколь комир\"",
+        "ASSIGNED_BY_ID": "52"
+    },
+    {
+        "ID": "24498",
+        "TITLE": "Q+store",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24502",
+        "TITLE": "ТОВАРИЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"АСТАНИНСКАЯ МЕТАЛЛОЛОМНАЯ КОРПОРАЦИЯ\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24504",
+        "TITLE": "ТОВАРИЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"TS CO.\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24506",
+        "TITLE": "АО \"Автобусный парк №1\"",
+        "ASSIGNED_BY_ID": "42"
+    },
+    {
+        "ID": "24508",
+        "TITLE": "ТОО \"БЕРЕКЕТ-2019\"",
+        "ASSIGNED_BY_ID": "192"
+    },
+    {
+        "ID": "24510",
+        "TITLE": "ТОО \"ASK service center\" \"АСК сервис центр\"",
+        "ASSIGNED_BY_ID": "42"
+    },
+    {
+        "ID": "24512",
+        "TITLE": "ТОО \"ВЕКТОР-Б 2019\"",
+        "ASSIGNED_BY_ID": "42"
+    },
+    {
+        "ID": "24514",
+        "TITLE": "ТОО «ДО - Дизайн фактори»",
+        "ASSIGNED_BY_ID": "184"
+    },
+    {
+        "ID": "24516",
+        "TITLE": "ТОО \"АДС-2001\"",
+        "ASSIGNED_BY_ID": "192"
+    },
+    {
+        "ID": "24518",
+        "TITLE": "ТОО \"ABAI HOLDING\"",
+        "ASSIGNED_BY_ID": "192"
+    },
+    {
+        "ID": "24520",
+        "TITLE": "ТОО\"ФУДМаш Сервис\"",
+        "ASSIGNED_BY_ID": "48"
+    },
+    {
+        "ID": "24524",
+        "TITLE": "ТОО алкер групп",
+        "ASSIGNED_BY_ID": "142"
+    },
+    {
+        "ID": "24526",
+        "TITLE": "АО JSC \"KazTransCom",
+        "ASSIGNED_BY_ID": "126"
+    },
+    {
+        "ID": "24530",
+        "TITLE": "ТОО \"M&M DISTRIBUTION\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24532",
+        "TITLE": "TОО «Olzhay company»",
+        "ASSIGNED_BY_ID": "184"
+    },
+    {
+        "ID": "24536",
+        "TITLE": "ТОО \"Ketu. Kz\"",
+        "ASSIGNED_BY_ID": "158"
+    },
+    {
+        "ID": "24538",
+        "TITLE": "ОО «РусТалстрой»",
+        "ASSIGNED_BY_ID": "126"
+    },
+    {
+        "ID": "24540",
+        "TITLE": "ТОО «АГС-ПЛАСТ»",
+        "ASSIGNED_BY_ID": "10"
+    },
+    {
+        "ID": "24542",
+        "TITLE": "ТОО ФЕРРУМ КАЗАХСТАН",
+        "ASSIGNED_BY_ID": "16"
+    },
+    {
+        "ID": "24544",
+        "TITLE": "TOO \"Aim stroy building\"",
+        "ASSIGNED_BY_ID": "192"
+    },
+    {
+        "ID": "24546",
+        "TITLE": "ИП ИБРАИЫМЖАНОВ",
+        "ASSIGNED_BY_ID": "184"
+    },
+    {
+        "ID": "24548",
+        "TITLE": "ТОО «МЕГА инвест-ПВ»",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24550",
+        "TITLE": "ТОО \"Казгеобел\"",
+        "ASSIGNED_BY_ID": "16"
+    },
+    {
+        "ID": "24552",
+        "TITLE": "ТОО АРруал",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24554",
+        "TITLE": "ОсОО \"Мастер Блок КейДжи\"",
+        "ASSIGNED_BY_ID": "10"
+    },
+    {
+        "ID": "24558",
+        "TITLE": "ТОО \"Зенон - Рекламные Поставки\"",
+        "ASSIGNED_BY_ID": "186"
+    },
+    {
+        "ID": "24562",
+        "TITLE": "ТОО\"ZUMA\"",
+        "ASSIGNED_BY_ID": "10"
+    },
+    {
+        "ID": "24564",
+        "TITLE": "ТОО\"Теміржолсу-Аягөз\"",
+        "ASSIGNED_BY_ID": "10"
+    },
+    {
+        "ID": "24566",
+        "TITLE": "KazNyrStrou Group",
+        "ASSIGNED_BY_ID": "64"
+    },
+    {
+        "ID": "24568",
+        "TITLE": "АО АЗМ",
+        "ASSIGNED_BY_ID": "52"
+    },
+    {
+        "ID": "24570",
+        "TITLE": "ТОО «Казфосфат»",
+        "ASSIGNED_BY_ID": "20"
+    },
+    {
+        "ID": "24572",
+        "TITLE": "ТОО GIGA BRANDS",
+        "ASSIGNED_BY_ID": "16"
+    },
+    {
+        "ID": "24574",
+        "TITLE": "ТОО \"РемСпецСтрой\"",
+        "ASSIGNED_BY_ID": "68"
+    },
+    {
+        "ID": "24576",
+        "TITLE": "ТОВАРИЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «Арна Лайн»",
+        "ASSIGNED_BY_ID": "142"
+    },
+    {
+        "ID": "24580",
+        "TITLE": "ТОО ТехСнабИмпорт",
+        "ASSIGNED_BY_ID": "16"
+    },
+    {
+        "ID": "24582",
+        "TITLE": "ТОО «KEMA KZ»",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24584",
+        "TITLE": "сталепромышленная компания",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24586",
+        "TITLE": "ТОО «Магистральный Водовод»",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24588",
+        "TITLE": "ТОО \"РемСпецСтрой\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24590",
+        "TITLE": "ТОО \"РостМеталл Групп Астана\"",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24592",
+        "TITLE": "АО СТПЗ",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24594",
+        "TITLE": "ТОО \"Компания \"АЖИО\"",
+        "ASSIGNED_BY_ID": "158"
+    },
+    {
+        "ID": "24596",
+        "TITLE": "ТОО «КарагандаПромСервис.KZ»",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24598",
+        "TITLE": "ТОО \"МАГИСТРАЛЬНЫЙ ВОДОВОД\"",
+        "ASSIGNED_BY_ID": "142"
+    },
+    {
+        "ID": "24600",
+        "TITLE": "ТОО \"Аклер Групп\"",
+        "ASSIGNED_BY_ID": "142"
+    },
+    {
+        "ID": "24602",
+        "TITLE": "Товарищество с ограниченной ответственностью \"Центр Благополучия\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24604",
+        "TITLE": "ТОО \"СК-Ретма\"",
+        "ASSIGNED_BY_ID": "68"
+    },
+    {
+        "ID": "24608",
+        "TITLE": "ТОО \"Зерноград\"",
+        "ASSIGNED_BY_ID": "166"
+    },
+    {
+        "ID": "24610",
+        "TITLE": "ТОО VERSLO",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24612",
+        "TITLE": "ТОО «RG Gold»",
+        "ASSIGNED_BY_ID": "68"
+    },
+    {
+        "ID": "24614",
+        "TITLE": "ТОО \"Tok.kz\"",
+        "ASSIGNED_BY_ID": "12"
+    },
+    {
+        "ID": "24618",
+        "TITLE": "ТОО \"Almas stroy Kapshagay\"",
+        "ASSIGNED_BY_ID": "184"
+    },
+    {
+        "ID": "24620",
+        "TITLE": "ТОО \"Lma Electric\"",
+        "ASSIGNED_BY_ID": "158"
+    },
+    {
+        "ID": "24622",
+        "TITLE": "АО \"Институт КазНИПИЭнергопром",
+        "ASSIGNED_BY_ID": "158"
+    },
+    {
+        "ID": "24624",
+        "TITLE": "Товарищество с ограниченной ответственностью \"ЦемРемонт-Т\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24626",
+        "TITLE": "ТОО \" Темир Пром ХХI\"",
+        "ASSIGNED_BY_ID": "142"
+    },
+    {
+        "ID": "24632",
+        "TITLE": "ТОО « Time builds History »",
+        "ASSIGNED_BY_ID": "16"
+    },
+    {
+        "ID": "24634",
+        "TITLE": "ООО \"ВБ Девелопмент\"",
+        "ASSIGNED_BY_ID": "166"
+    },
+    {
+        "ID": "24638",
+        "TITLE": "ТОО «Нур-СтройОйыл»",
+        "ASSIGNED_BY_ID": "16"
+    },
+    {
+        "ID": "24640",
+        "TITLE": "ТОО \"ИНТЕРНЕТ ТУРИЗМ\"",
+        "ASSIGNED_BY_ID": "1"
+    },
+    {
+        "ID": "24642",
+        "TITLE": "TOO \"Fortune (Фортуна)\"",
+        "ASSIGNED_BY_ID": "192"
+    },
+    {
+        "ID": "24644",
+        "TITLE": "«Алматерм KZ»",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24646",
+        "TITLE": "«Fenix Project»",
+        "ASSIGNED_BY_ID": "64"
+    },
+    {
+        "ID": "24648",
+        "TITLE": "ТОО \"NAMARK\"",
+        "ASSIGNED_BY_ID": "20"
+    },
+    {
+        "ID": "24650",
+        "TITLE": "ТОО \"BBP Company\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24652",
+        "TITLE": "ТОО “SAM-Engineering”",
+        "ASSIGNED_BY_ID": "190"
+    },
+    {
+        "ID": "24654",
+        "TITLE": "ТОО \"KZ Recycling\"",
+        "ASSIGNED_BY_ID": "38"
+    },
+    {
+        "ID": "24656",
+        "TITLE": "ТОО \"СПЕКТРУМ ВИЖН\"",
+        "ASSIGNED_BY_ID": "16"
+    },
+    {
+        "ID": "24658",
+        "TITLE": "ТОО \"БТ Сигнал\"",
+        "ASSIGNED_BY_ID": "68"
+    },
+    {
+        "ID": "24660",
+        "TITLE": "ТОО «Специальная металлургия»",
+        "ASSIGNED_BY_ID": "42"
+    },
+    {
+        "ID": "24662",
+        "TITLE": "\"MANGISTAUMUNAJGAZ\"",
+        "ASSIGNED_BY_ID": "64"
+    },
+    {
+        "ID": "24664",
+        "TITLE": "Товарищество с ограниченной ответственностью \"AGRITECH\"",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24666",
+        "TITLE": "ТОО \"Ел ДАла Интернешнл\"",
+        "ASSIGNED_BY_ID": "38"
+    },
+    {
+        "ID": "24668",
+        "TITLE": "Orda qurylys",
+        "ASSIGNED_BY_ID": "182"
+    },
+    {
+        "ID": "24670",
+        "TITLE": "ТОО \"Смакополис\"",
+        "ASSIGNED_BY_ID": "38"
+    },
+    {
+        "ID": "24672",
+        "TITLE": "ТОО «Торговая компания B&A»",
+        "ASSIGNED_BY_ID": "182"
+    },
+    {
+        "ID": "24674",
+        "TITLE": "Товарищество с ограниченной ответственностью «Гарант Бетон.ком»",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24676",
+        "TITLE": "ТОО \"Техноконтроль\"",
+        "ASSIGNED_BY_ID": "20"
+    },
+    {
+        "ID": "24678",
+        "TITLE": "ТОО KAZAZOT PRIME",
+        "ASSIGNED_BY_ID": "16"
+    },
+    {
+        "ID": "24680",
+        "TITLE": "ТОО \"ПО Трубное решение Казахстан\"",
+        "ASSIGNED_BY_ID": "70"
+    },
+    {
+        "ID": "24682",
+        "TITLE": "ТОО «Global Supply Solutions» (Глобал Саплай Солюшенс)",
+        "ASSIGNED_BY_ID": "38"
+    },
+    {
+        "ID": "24684",
+        "TITLE": "\"Орал АЗС Комплект \"",
+        "ASSIGNED_BY_ID": "192"
+    },
+    {
+        "ID": "24686",
+        "TITLE": "ТОО \"BT-ENGINEERING\"",
+        "ASSIGNED_BY_ID": "42"
+    },
+    {
+        "ID": "24688",
+        "TITLE": "ТОО GAB Construction",
+        "ASSIGNED_BY_ID": "142"
+    },
+    {
+        "ID": "24690",
+        "TITLE": "ТОО «AnadoluGroup(Анадолу Групп)»",
+        "ASSIGNED_BY_ID": "42"
+    },
+    {
+        "ID": "24696",
+        "TITLE": "ТОО «Злак Плюс М»",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24698",
+        "TITLE": "ИП Сүлеймен",
+        "ASSIGNED_BY_ID": "152"
+    },
+    {
+        "ID": "24700",
+        "TITLE": "test",
+        "ASSIGNED_BY_ID": "188"
     }
 ]

@@ -43,5 +43,22 @@ router.get('/get_current_data/', async (req, res) => {
     }
 });
 
+router.post('/mark_companies/', async (req, res) => {
+    const handler = new Handler();
+    try {
+        const contacts = req.body.contacts;
+        const result = await handler.markCompaniesOnCallHandler(contacts);
+
+        if (result) {
+            res.status(200).json({ success: true, message: 'Companies updated successfully.' });
+        } else {
+            res.status(500).json({ success: false, message: 'Failed to update companies.' });
+        }
+    } catch (err) {
+        console.error("Error in /mark_companies/ route:", err);
+        res.status(500).json({ error: 'An error occurred while fetching data' });
+    }
+})
+
 
 module.exports = { router };
