@@ -1,5 +1,6 @@
 const express = require("express");
 const Handler = require("../handlers/handler.js");
+const logger = require("../logger/logger");
 
 const router = express.Router();
 
@@ -32,13 +33,13 @@ router.get('/get_current_data/', async (req, res) => {
         console.log("After calling updateAndGetAllData");
 
         if (!data) {
-            console.error("No data returned from updateAndGetAllData");
+            logger.logError("No data returned from updateAndGetAllData");
             return res.status(500).json({ error: 'Failed to retrieve data' });
         }
 
         res.status(200).json(data);
     } catch (error) {
-        console.error("Error in /get_current_data/ route:", error);
+        logger.logError("Error in /get_current_data/ route:", error);
         res.status(500).json({ error: 'An error occurred while fetching data' });
     }
 });
@@ -55,7 +56,7 @@ router.post('/mark_companies/', async (req, res) => {
             res.status(500).json({ success: false, message: 'Failed to update companies.' });
         }
     } catch (err) {
-        console.error("Error in /mark_companies/ route:", err);
+        logger.logError("Error in /mark_companies/ route:", err);
         res.status(500).json({ error: 'An error occurred while fetching data' });
     }
 })

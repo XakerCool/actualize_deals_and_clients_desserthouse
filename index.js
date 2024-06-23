@@ -14,6 +14,8 @@ const PORT = 4400;
 app.locals.link = process.env.AKRAHOLDING_LINK;
 
 app.use(cors());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/activity/', router);
 
